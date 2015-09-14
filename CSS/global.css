@@ -18,6 +18,7 @@ box-sizing:border-box;/*****************************/
 /*HEADER*/
 body {
     font-family: 'Open Sans';
+    background-color: #fff;
 }
 a{
     text-decoration: none;
@@ -155,7 +156,7 @@ div#box .box-panel{
 
 .left{
     width: 50%; 
-    height: 50%;
+    /*height: 50%;*/
     background-color:#1C1C1C;
     float:left;
     bottom=0;
@@ -163,7 +164,7 @@ div#box .box-panel{
 
 .right{
     width: 50%; 
-    height: 50%;
+    /*height: 50%;*/
     background-color:#1C1C1C;
     float:right;
     text-align: right;
@@ -310,7 +311,7 @@ div#contact .box-panel {
 	float: right;
 	font-size: 30px;
 	padding-right: 50px;
-	display: inline-flex;
+	/*display: inline-flex;*/
 	text-transform: uppercase;
 	margin-top: 0;
 }
@@ -323,7 +324,7 @@ div#contact .box-panel {
 /*Navigation stuff */
 
 .footer {
-	margin: 20px 0 50px 0;
+	/*margin: 20px 0 50px 0;*/
 	text-transform: uppercase;
 	background-color: #34495E;
 	color: #fff;
@@ -336,4 +337,50 @@ div#container2 {
 	width: 100%;
 	height: 560px;
 }
+
+
+
+
+
+
+
+
+
+/*our code*/
+section{
+    display: block;
+    margin-top: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+#contents{
+float: right;
+}
+#contents p{
+   color: #B5AFA2;
+}
+#foot{}
+.footerz{
+  float: right;
+}
+.talk{
+ float: left;
+}
+.social{
+
+}
+.talktous{
+  display: block;
+    background-color: #34495E;
+    height: 100px;
+
+}
+.social{
+    display: inline-block;
+    float: right;
+}
+.talk{
+    display: inline-block;
+}
+
 
